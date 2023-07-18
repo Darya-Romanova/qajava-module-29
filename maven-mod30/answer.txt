@@ -1,9 +1,0 @@
-Failures:
-
-1) age = -1: PersonTest.isTeenagerTest: expected [false] but found [true]
-2) age = 0: PersonTest.isTeenagerTest: expected [false] but found [true]
-3) age = 5: PersonTest.isTeenagerTest: expected [false] but found [true]
-4) age = 12: PersonTest.isTeenagerTest: expected [false] but found [true]
-5) age = 19: PersonTest.isTeenagerTest: expected [true] but found [false]
-
-Метод возвращает true, если в метод передаётся значение строго меньше 19 (по условию 13-19 включительно)
